@@ -1,6 +1,8 @@
 import os
 import shutil
 
+
+#task3 (file organizer)
 def organize_files(source_dir, destination_dir):
     # Create destination directories if they don't exist
     for folder_name in ['Images', 'Documents', 'Videos', 'Others']:
