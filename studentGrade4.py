@@ -12,7 +12,7 @@ def avgCalc(grade):
     elif grade == 'D' :
         return 6
     elif grade == 'P':
-        return 5
+        return 5 
     else :
         return 4 
 
