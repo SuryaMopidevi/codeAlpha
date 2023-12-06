@@ -11,13 +11,15 @@ def avgCalc(grade):
         return 7
     elif grade == 'D' :
         return 6
+    elif grade == 'P':
+        return 5
     else :
-        return 5 
+        return 4 
 
 # adding student details 
 def addStudentGrade():
     name=input("Enter Student name : ").lower()
-    print("Enter grades (O/A/B/C/D/F) only \n")
+    print("Enter grades (O/A/B/C/D/P/F) only \n")
     Python=input("Enter Python Grade : ").upper()
     SQL=input("Enter SQL Grade : ").upper()
     Django=input("Enter Django Grade : ").upper()
